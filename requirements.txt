@@ -1,2 +1,8 @@
 pandas
 jupyter
+requests
+lxml
+geopy
+folium
+scikit-learn
+matplotlib
