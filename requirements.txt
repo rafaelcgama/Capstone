@@ -7,3 +7,5 @@ folium
 scikit-learn
 matplotlib
 pgeocode
+yellowbrick
+OSGridConverter
