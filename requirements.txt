@@ -1,4 +1,5 @@
 pandas
+numpy
 jupyter
 requests
 lxml
@@ -10,3 +11,5 @@ pgeocode
 yellowbrick
 OSGridConverter
 seaborn
+unidecode
+traitlets==4.3.3
