@@ -941,13 +941,11 @@ neighborhoods_venues_sorted['neighborhood'] = london_grouped['neighborhood']
 for ind in np.arange(london_grouped.shape[0]):
     neighborhoods_venues_sorted.iloc[ind, 1:] = return_most_common_venues(london_grouped.iloc[ind, :], num_top_venues)
 
+print(neighborhoods_venues_sorted.shape)
 neighborhoods_venues_sorted.head()
-neighborhoods_venues_sorted.shape
 
 # %% [markdown]
 # ## 4. Cluster Neighborhoods
-# %% [markdown]
-# Run *k*-means to cluster the neighborhood into 5 clusters.
 
 # %%
 london_part_clustering = london_grouped.drop('neighborhood', 1)
